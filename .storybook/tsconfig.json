@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "moduleResolution": "bundler"
+  },
+  "include": [
+    "../projects/ui-components/**/*.stories.ts",
+    "../projects/ui-components/**/*.stories.tsx"
+  ]
+}
